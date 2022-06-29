@@ -19,14 +19,14 @@ public class selfinfo {
         int year = 2022;
         int age = year - ttl3;
 
-        born = JOptionPane.showInputDialog("Masukkan tempat lahir : ");
+        born = JOptionPane.showInputDialog(" tempat lahir : ");
         if (born.charAt(0) >= 65 && nama.charAt(0) <= 90) {
             kondisi = "True";
         } else {
             kondisi = "False";
         }
 
-        living = JOptionPane.showInputDialog("Masukkan tempat tinggal Sekarang:");
+        living = JOptionPane.showInputDialog(" tempat tinggal Sekarang:");
         if (living.charAt(0) >= 65 && nama.charAt(0) <= 90) {
             kondisi = "True";
         } else {
